@@ -1,4 +1,3 @@
-
-![scrapped_data(1)](![home_page](https://github.com/aysh01/Web_Scrapper/assets/120012051/cf8aa698-287a-4d6c-8d7b-ca0169d096a2)
-https://github.com/aysh01/Web_Scrapper/assets/120012051/27c199f0-077c-4e4f-8453-32b51edb26d5)
-![scrapped_data](https://github.com/aysh01/Web_Scrapper/assets/120012051/0702f84d-787e-4e05-a03e-4c8a930d05eb)
+![scrapped_data(1)](https://github.com/aysh01/Web_Scrapper/assets/120012051/ae7af0ae-91e0-41c1-a653-81cd357b6bbd)
+![home_page](https://github.com/aysh01/Web_Scrapper/assets/120012051/9ba04e72-6729-4ff1-9acd-c9a4a07843a5)
+![scrapped_data](https://github.com/aysh01/Web_Scrapper/assets/120012051/f7a94596-5f1b-4922-931e-dacb5f19dc8a)
