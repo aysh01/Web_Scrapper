@@ -4,10 +4,6 @@
 
 Use the package manager [pip](https://docs.python.org/3/installing/index.html) to install all the necessary dependencies.
 
-```bash
-npm run pkg
-```
-It, will install the necessary packages which are required for this project.
 ## Usage
 
 ```python
