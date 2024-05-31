@@ -7,7 +7,7 @@ Use the package manager [pip](https://docs.python.org/3/installing/index.html) t
 ## Necessary Packages for this project ..
 ```Flask```
 ```render_template```
-```request,jsonify``` ```requests``` ```BeautifulSoup```
+```request``` ```jsonify``` ```requests``` ```BeautifulSoup```
 
 ## Usage
 
