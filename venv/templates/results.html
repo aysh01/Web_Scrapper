@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/Logo.jpg">
+    <title>Python | Web Scrapper</title>
+</head>
+
+<body>
+    <form action="/" method="get">
+        <button type="submit" style="cursor: pointer;">Back</button>
+    </form>
+    <h1>Scrapped Data</h1>
+    <ul id="list" style="overflow: auto;font-size: 28px;
+    height: 160px;border: 1px solid;border-block: inherit;">
+        {% for title in result_titles %}
+        <li>{{ title }}</li>
+        {% endfor %}
+    </ul>
+    <p id="count" style="font-size: 28px;"></p>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var list = document.getElementById("list");
+            var count = list.getElementsByTagName('li').length;
+            document.getElementById('count').textContent = `Scrapped Data [${count}]`;
+        });
+    </script>
+    <button type="submit" style="margin-left: 93.6%;
+    cursor: pointer;height: 28px;width: 6%;">Clean</button>
+    <!--  -->
+    <h1>Cleaned Data</h1>
+    {% set formatted_data = [] %}
+    <ul id="list1" style="overflow: auto;font-size: 28px;
+    height: 160px;border: 1px solid;border-block: inherit;">
+        <!-- split string -->
+        {% set search_list = [] %}
+        {% for i in search_input %}
+        {% set _ = search_list.append([i]) %}
+        {% endfor %}
+
+        {% set new_data = [] %}
+        {% for title in result_titles | unique %}
+        {% set _ = new_data.append(title) %}
+        {% endfor %}
+
+        {% for i in new_data %}
+        {% if search_list[0] not in new_data %}
+        {% set _ = formatted_data.append(i.strip()) %}
+        {% endif %}
+        {% endfor %}
+
+        {% for j in formatted_data %}
+        <li>{{ j }}</li>
+        {% endfor %}
+    </ul>
+    <p id="count1" style="font-size: 28px;"></p>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var list = document.getElementById("list1");
+            var count = list.getElementsByTagName('li').length;
+            document.getElementById('count1').textContent = `Cleaned Data [${count}]`;
+        });
+    </script>
+    <button type="submit" style="margin-left: 93.6%;
+    cursor: pointer;height: 28px;width: 6%;">Remove</button>
+    <!--  -->
+    <h1>Irrelevant Data Removed</h1>
+    {% set relevant_data = [] %}
+    {% set Formatted_data = [] %}
+    {% set unique_data = [] %}
+    <ul id="list2" style="overflow: auto;font-size: 28px;
+    height: 160px;border: 1px solid;border-block: inherit;">
+        {% for i in formatted_data %}
+        {% if '-' not in i %}
+        {% set _ = relevant_data.append(i) %}
+        {% endif %}
+        {% endfor %}
+
+        {% for j in relevant_data %}
+        {% set _ = Formatted_data.append(j.capitalize()) %}
+        {% endfor %}
+
+        {% for i in Formatted_data %}
+        {% if i not in unique_data %}
+        {% set _ = unique_data.append(i) %}
+        {% endif %}
+        {% endfor %}
+
+        {% for i in unique_data %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ul>
+    <p id="count2" style="font-size: 28px;"></p>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var list = document.getElementById("list2");
+            var count = list.getElementsByTagName('li').length;
+            document.getElementById('count2').textContent = `Removed Data [${count}]`;
+        });
+
+        const data = [];
+        document.addEventListener('DOMContentLoaded', function () {
+            var items = document.getElementById('list2');
+            var unique = items.querySelectorAll('li').length;
+            // console.log(items.innerHTML);
+            for (var i = 0; i < unique; i++) {
+                data.push(items.outerText);
+            }
+            console.log(data);
+
+            fetch('/submit', {
+                method: 'POST',
+                body: JSON.stringify({ unique: unique })
+            }).then(res => {
+                if (res.ok) {
+                    console.log('Data Submitted Succesfully');
+                } else {
+                    console.log(error);
+                }
+            }).catch(error => {
+                console.error(error);
+            });
+        });
+    </script>
+</body>
+
+</html>
