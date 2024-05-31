@@ -10,7 +10,7 @@ Inside venv directory
 ```python
 cd Scripts
 ```
-It, will start the server.
+The, type command ```activate```
 
 ## Video Explanation
 <!--<a href="https://drive.google.com/file/d/115-GShphXL6ho6iipifl19LqHgAXgbXV/view?usp=sharing">
