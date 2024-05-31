@@ -6,8 +6,9 @@ Use the package manager [pip](https://docs.python.org/3/installing/index.html) t
 
 ## Usage
 
+Inside venv directory
 ```python
-npm start
+cd Scripts
 ```
 It, will start the server.
 
