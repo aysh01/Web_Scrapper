@@ -1,4 +1,4 @@
-# Login Authentication Using MERN Stack
+# Developing a Python Based Web-Scrapper
 
 ## Installation
 
@@ -28,7 +28,7 @@ It, will start the server.
 
 ## License
 
-[Apache License](http://www.apache.org/licenses/)
+[MIT License](https://github.com/aysh01/Web_Scrapper/blob/main/LICENSE)
 
 
 
