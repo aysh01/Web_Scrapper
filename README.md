@@ -4,6 +4,9 @@
 
 Use the package manager [pip](https://docs.python.org/3/installing/index.html) to install all the necessary dependencies.
 
+## Necessary Packages for this project ..
+```Flask, render_template, request,jsonify, requests, BeautifulSoup```
+
 ## Usage
 
 Inside venv directory
