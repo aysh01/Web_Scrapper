@@ -21,7 +21,7 @@ activate
 ```
 It, will start Python Virtual-Environment [venv](https://python.land/virtual-environments/virtualenv).
 
-To, close the ```venv```.
+To, close the Python Virtual-Environment ```venv```.
 ```python
 cd Scripts/venv/Scripts
 ```
