@@ -16,7 +16,7 @@ Inside venv directory
 cd Scripts
 ```
 Then, type command ```activate``` .
-It, will start Python Virtual-Environment.
+It, will start Python Virtual-Environment [venv](https://python.land/virtual-environments/virtualenv)
 
 ## Video Explanation
 <!--<a href="https://drive.google.com/file/d/115-GShphXL6ho6iipifl19LqHgAXgbXV/view?usp=sharing">
