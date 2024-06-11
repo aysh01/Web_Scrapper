@@ -61,9 +61,9 @@ C:\Users\Scripts\venv\Scripts>
 It, will stop Python Virtual-Environment.
 
 ## Video Explanation
-<!--<a href="https://drive.google.com/file/d/115-GShphXL6ho6iipifl19LqHgAXgbXV/view?usp=sharing">
-<img src="https://github.com/aysh01/Login__Auth/assets/120012051/9b77d844-5b8f-48ee-a142-8e6a9f1c4332" alt="Image">
-</a>-->
+<a href="">
+<img src="" alt="Image">
+</a>
 
 ## Output
 ![home_page](https://github.com/aysh01/Web_Scrapper/assets/120012051/9ba04e72-6729-4ff1-9acd-c9a4a07843a5)
