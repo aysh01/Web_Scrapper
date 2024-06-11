@@ -48,7 +48,9 @@ Press CTRL+C to quit
 ```
 To, close the ```venv```.
 ```python
-cd Scripts/venv/Scripts
+(venv) C:\Users\Scripts\venv>cd Scripts
+
+(venv) C:\Users\Scripts\venv\Scripts>
 ```
 Then, type command ```deactivate``` .
 ```python
