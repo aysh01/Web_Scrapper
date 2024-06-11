@@ -27,7 +27,9 @@ Then, type command ```activate``` .
 C:\Users\Scripts\venv\Scripts>activate
 ```
 It, will start Python Virtual-Environment [venv](https://python.land/virtual-environments/virtualenv).
-
+```Python
+(venv) C:\Users\Scripts\venv\Scripts>
+```
 To, close the ```venv```.
 ```python
 cd Scripts/venv/Scripts
