@@ -7,7 +7,9 @@ Use the package manager [pip](https://docs.python.org/3/installing/index.html) t
 ## To work with the packages, you have to install them. You can do this by using the command prompt or terminal.
 
 Type this command 
-```pip install -r requirements.txt```
+```python
+pip install -r requirements.txt
+```
 
 ## Necessary Packages for this project ..
 ```Flask```
