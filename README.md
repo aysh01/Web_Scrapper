@@ -30,6 +30,10 @@ It, will start Python Virtual-Environment [venv](https://python.land/virtual-env
 ```Python
 (venv) C:\Users\Scripts\venv\Scripts>
 ```
+To, run program type
+```Python
+(venv) C:\Users\Scripts\venv\Scripts>py app.py
+```
 To, close the ```venv```.
 ```python
 cd Scripts/venv/Scripts
