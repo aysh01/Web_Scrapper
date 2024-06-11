@@ -12,7 +12,7 @@ Type this command
 ## Necessary Packages for this project ..
 ```Flask```
 ```render_template```
-```request``` ```jsonify``` ```requests``` ```BeautifulSoup```
+```request``` ```jsonify``` ```requests``` ```BeautifulSoup``` ```mongoose```
 
 ## Usage
 
