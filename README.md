@@ -54,7 +54,9 @@ To, close the ```venv```.
 ```
 Then, type command ```deactivate``` .
 ```python
-deactivate
+(venv) C:\Users\Scripts\venv\Scripts>deactivate
+
+C:\Users\Scripts\venv\Scripts>
 ```
 It, will stop Python Virtual-Environment.
 
