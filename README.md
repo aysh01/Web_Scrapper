@@ -62,7 +62,7 @@ It, will stop Python Virtual-Environment.
 
 ## Video Explanation
 <a href="https://drive.google.com/file/d/1spXNuZTbgM7NL1N3-p0Cw4Lbht4mwrfi/view?usp=drive_link">
-<img src="" alt="Image">
+<img src="https://github.com/aysh01/Web_Scrapper/blob/main/venv/static/20240602_203943_0000.png" alt="Image">
 </a>
 
 ## Output
