@@ -61,7 +61,7 @@ C:\Users\Scripts\venv\Scripts>
 It, will stop Python Virtual-Environment.
 
 ## Video Explanation
-<a href="">
+<a href="https://drive.google.com/file/d/1spXNuZTbgM7NL1N3-p0Cw4Lbht4mwrfi/view?usp=drive_link">
 <img src="" alt="Image">
 </a>
 
