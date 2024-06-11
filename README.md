@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 Inside venv directory
 ```python
-cd Scripts
+C:\Users\Scripts\venv>cd Scripts
 ```
 Then, type command ```activate``` .
 ```python
