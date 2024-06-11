@@ -36,6 +36,16 @@ Then, go to previous directory ```venv```
 
 (venv) C:\Users\Scripts\venv>
 ```
+Run the Program 👇
+```Python
+(venv) C:\Users\Scripts\venv>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+```
 To, close the ```venv```.
 ```python
 cd Scripts/venv/Scripts
